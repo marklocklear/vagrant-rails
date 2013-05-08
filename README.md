@@ -1,7 +1,7 @@
 # Vagrant setup for Windows Users
 
 ## Introduction
-This is a simple step-by-step guide to setting up Ruby on Rails in a Virtualbox and Vagrant environment
+This is a simple step-by-step guide to setting up Ruby on Rails in a Virtualbox and Vagrant environment. Where you see 'c:\users\joe' replace 'joe' with your windows user name.
 
 ## Step 1 - Install Virtualbox
 Go to https://www.virtualbox.org/wiki/Downloads and install VirtualBox 4.2.12 for Windows hosts
@@ -14,7 +14,7 @@ Go to http://downloads.vagrantup.com/tags/v1.2.2 and install Vagrant-1.2.2.msi. 
 
 
 ## Step 3 - Download putty and create ppk key
-Go to http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html and download both putty.exe and puttygen.exe under the For Windows on Intel x86 section. Run puttygen.exe and click "Load". Browse to your .vagrant.d directory (probably in  c:\Users\joe). In the lower right hand corner choose "All Files(*.*)" from the drop down box. Now click the insecure_private_key file and choose "Open". Click "OK" at the PuTTYgen Notice. Now choose "Save private key". At the PuTTYgen warning message regarding a passphrase choose "Yes" and save the file as myKey.ppk.
+Go to http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html and download both putty.exe and puttygen.exe under the 'For Windows on Intel x86' section. Run puttygen.exe and click "Load". Browse to your .vagrant.d directory (probably in  c:\Users\joe). In the lower right hand corner choose "All Files(*.*)" from the drop down box. Now click the insecure_private_key file and choose "Open". Click "OK" at the PuTTYgen Notice. Now choose "Save private key". At the PuTTYgen warning message regarding a passphrase choose "Yes" and save the file as myKey.ppk.
 
 
 ## Step 4 - Project Setup
@@ -81,4 +81,4 @@ Finally, to completely wipe the virtual machine from the disk **destroying all i
 
     host $ vagrant destroy # DANGER: all is gone
 
-Please check the [Vagrant documentation](http://vagrantup.com/v1/docs/index.html) for more information on Vagrant.
+Please check the [Vagrant documentation](http://docs.vagrantup.com/v2/) for more information on Vagrant.
