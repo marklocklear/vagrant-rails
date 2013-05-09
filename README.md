@@ -29,7 +29,7 @@ Open a command window and type:
 ## Step 5 - Add a box
 In your command window run:
 
-		vagrant box add precise32 http://files.vagrantup.com/precise32.box
+		vagrant box add rails_box http://files.gravygrip.com/package.box
 
 This will take a few seconds to download.
 
@@ -52,6 +52,16 @@ This may take up to one minute to configure and start. Now type:
 		Private key: C:/Users/mlocklear.ABTECH/.vagrant.d/insecure_private_key
 
 Now open putty.exe and go to Connection > SSH > Auth. In "Private key for authentication" browse to mykey.ppk that we created in step 3. Now in putty go to "Session" and enter 127.0.0.1 (localhost) and in port replace 22 with 2222. Now click "Open". If you get a PuTTY Security Alert click "Yes". In your terminal window you should see "login as:". Type in the username "vagrant" and you should be taken to a linux prompt.
+
+## Verify it works
+
+In your Ubuntu console type...
+
+		vagrant@precise32:~$ ruby -v
+		ruby 2.0.0p0 (2013-02-24 revision 39474) [i686-linux]
+		vagrant@precise32:~$ rails -v
+		Rails 3.2.13
+
 
 ## Virtual Machine Management
 
