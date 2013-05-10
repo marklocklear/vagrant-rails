@@ -24,9 +24,16 @@ Open a command window and type:
 ## Step 4 - Add a box
 In your command window run:
 
-		vagrant box add rails_box http://files.gravygrip.com/package.box
+		vagrant box add rails http://files.gravygrip.com/package.box
 
-This will take a few seconds to download.
+This will take a few seconds to download. Now open Vagrantfile and the line that says...
+
+		config.vm.box = "base"
+
+change to...
+
+		config.vm.box = "rails"
+
 
 ##Step 5 - Spin up your box and SSH into it
 In your commend windows type:

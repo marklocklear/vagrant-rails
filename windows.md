@@ -29,7 +29,7 @@ Open a command window and type:
 ## Step 5 - Add a box
 In your command window run:
 
-		vagrant box add rails_box http://files.gravygrip.com/package.box
+		vagrant box add rails http://files.gravygrip.com/package.box
 
 This will take a few seconds to download.
 
