@@ -7,10 +7,10 @@ This is a simple step-by-step guide to setting up Ruby on Rails in a Virtualbox 
 Go to https://www.virtualbox.org/wiki/Downloads and install VirtualBox 4.2.12.
 
 ## Step 2 - Install Vagrant
-Go to http://downloads.vagrantup.com/tags/v1.2.2 and install Vagrant-1.2.2.msi. After the install open a command prompt and type:
+Go to http://downloads.vagrantup.com/tags/v1.2.2 and install Vagrant. After the install open a command prompt and type:
 
 		host$ vagrant -v
-		Vagrant version 1.0.7
+		Vagrant version 1.2.2
 
 ## Step 3 - Project Setup
 Open a command window and type:
@@ -39,7 +39,7 @@ This may take up to one minute to configure and start. Now type:
 
 ## Verify it works
 
-In your Ubuntu console type...
+In your console type...
 
 		vagrant@precise32:~$ ruby -v
 		ruby 2.0.0p0 (2013-02-24 revision 39474) [i686-linux]
