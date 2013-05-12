@@ -40,11 +40,11 @@ This will take a few seconds (or minutes/hours depending on you internet speed)t
 
 In your commend windows type:
 
-		vagrant up
+		C:\Users\joe>vagrant up
 
-This may take up to one minute to configure and start. Now type:
+This may take a minute or two configure and start. Now type:
 
-		C:\Users\mlocklear.ABTECH>vagrant ssh
+		C:\Users\joe>vagrant ssh
 		`ssh` executable not found in any directories in the %PATH% variable. Is an
 		SSH client installed? Try installing Cygwin, MinGW or Git, all of which
 		contain an SSH client. Or use the PuTTY SSH client with the following
@@ -53,7 +53,7 @@ This may take up to one minute to configure and start. Now type:
 		Host: 127.0.0.1
 		Port: 2222
 		Username: vagrant
-		Private key: C:/Users/mlocklear.ABTECH/.vagrant.d/insecure_private_key
+		Private key: C:/Users/joe/.vagrant.d/insecure_private_key
 
 Now open putty.exe and go to Connection > SSH > Auth. In "Private key for authentication" browse to mykey.ppk that we created in step 3. Now in putty go to "Session" and enter 127.0.0.1 (localhost) and in port replace 22 with 2222. Now click "Open". If you get a PuTTY Security Alert click "Yes". In your terminal window you should see "login as:". Type in the username "vagrant" and you should be taken to a linux prompt.
 
