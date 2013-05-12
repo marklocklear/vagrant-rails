@@ -1,7 +1,7 @@
 # Vagrant setup for Windows Users
 
 ## Introduction
-This is a simple step-by-step guide to setting up Ruby on Rails in a Virtualbox and Vagrant environment. Where you see 'c:\users\joe' replace 'joe' with your windows user name.
+This is a step-by-step guide to setting up Ruby on Rails in a Virtualbox and Vagrant environment. Where you see 'c:\users\joe' replace 'joe' with your windows user name.
 
 ## Step 1 - Install Virtualbox
 Go to https://www.virtualbox.org/wiki/Downloads and install VirtualBox 4.2.12 for Windows hosts
