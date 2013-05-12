@@ -29,11 +29,12 @@ Open a command window and type:
 ## Step 5 - Add a box
 In your command window run:
 
-		vagrant box add rails http://files.gravygrip.com/package.box
+		vagrant box add base http://files.gravygrip.com/package.box
 
-This will take a few seconds to download.
+This will take a few seconds (or minutes/hours depending on you internet speed)to download.
 
 ##Step 6 - Spin up your box and SSH into it
+
 In your commend windows type:
 
 		vagrant up
