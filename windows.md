@@ -29,7 +29,10 @@ Open a command window and type:
 ## Step 5 - Add a box
 In your command window run:
 
-		vagrant box add base http://files.gravygrip.com/package.box
+		C:\Users\joe>vagrant box add base http://files.gravygrip.com/package.box
+		Downloading or copying the box...
+		←[0KExtracting box...ate: 86331/s, Estimated time remaining: --:--:--)
+		Successfully added box 'base' with provider 'virtualbox'!
 
 This will take a few seconds (or minutes/hours depending on you internet speed)to download.
 
