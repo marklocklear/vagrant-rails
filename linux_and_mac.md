@@ -24,15 +24,9 @@ Open a command window and type:
 ## Step 4 - Add a box
 In your command window run:
 
-		vagrant box add rails http://files.gravygrip.com/package.box
+		vagrant box add base http://files.gravygrip.com/package.box
 
-This will take a few seconds to download. Now open Vagrantfile and the line that says...
-
-		config.vm.box = "base"
-
-change to...
-
-		config.vm.box = "rails"
+This will take a few seconds/minutes/hours to download depending on your internet speed.
 
 
 ##Step 5 - Spin up your box and SSH into it
@@ -40,9 +34,11 @@ In your commend windows type:
 
 		vagrant up
 
-This may take up to one minute to configure and start. Now type:
+This will take a minute or two configure and start. Now type:
 
 		host$ vagrant ssh
+
+This should take you do a login prompt. Login with the user 'vagrant', and no password.
 
 ## Verify it works
 
