@@ -1,4 +1,4 @@
-# Guide for setting up Vagrant on Windows or Linux/MAC
+# Guide for setting up Vagrant and Rails on Windows or Linux/MAC
 
 Click windows.md or linux_and_mac.md above for instructions.
 
