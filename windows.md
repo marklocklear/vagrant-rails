@@ -14,7 +14,7 @@ Go to http://downloads.vagrantup.com/tags/v1.2.2 and install Vagrant-1.2.2.msi. 
 
 
 ## Step 3 - Download putty and create ppk key
-Go to http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html and download both putty.exe and puttygen.exe under the 'For Windows on Intel x86' section. Run puttygen.exe and click "Load". Browse to your .vagrant.d directory (probably in  c:\Users\joe). In the lower right hand corner choose "All Files(*.*)" from the drop down box. Now click the insecure_private_key file and choose "Open". Click "OK" at the PuTTYgen Notice. Now choose "Save private key". At the PuTTYgen warning message regarding a passphrase choose "Yes" and save the file as myKey.ppk in your .vagrant.d folder.
+Go to http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html and download both putty.exe and puttygen.exe under the 'For Windows on Intel x86' section. Run puttygen.exe and click "Load". Browse to your .vagrant.d directory (probably in  c:\Users\joe). In the lower right hand corner choose "All Files(*.*)" from the drop down box. Now click the insecure_private_key file and choose "Open". Click "OK" at the PuTTYgen Notice. Now choose "Save private key". You may get a PuTTYgen warning message regarding a passphrase. If so choose "Yes". Now save the file as myKey.ppk in your .vagrant.d folder.
 
 
 ## Step 4 - Project Setup
