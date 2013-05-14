@@ -7,3 +7,6 @@ Configuration of box at http://files.gravygrip.com/package.box includes Ubuntu 1
 To set up synced folders edit setting in Vagrantfile to look like...
 
       config.vm.synced_folder "C:\\Users\\joe\\myFolder", "\/vagrant"
+
+To forward ports edit settings in Vagrantfile to look like...
+        config.vm.network :forwarded_port, guest: 3000, host: 3000
