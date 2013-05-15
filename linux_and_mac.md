@@ -50,4 +50,4 @@ In your console type...
 		Rails 3.2.13
 
 
-Thats it. You are done!
+Thats it. You are done! When you are ready to exit the VM just type 'exit' in the VM console. Then type 'vagrant halt' in your locahost's console.
