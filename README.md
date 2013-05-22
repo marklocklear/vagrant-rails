@@ -9,7 +9,8 @@ To set up synced folders edit setting in Vagrantfile to look like...
       config.vm.synced_folder "C:\\Users\\joe\\myFolder", "\/vagrant"
 
 To forward ports edit settings in Vagrantfile to look like...
-        config.vm.network :forwarded_port, guest: 3000, host: 3000
+
+      config.vm.network :forwarded_port, guest: 3000, host: 3000
 
 ## Virtual Machine Management
 
